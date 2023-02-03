@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+/* Visualização desktop */
+
+.divlogoSlogan, .divformulario{
+    height: 87.4vh;
+    width: 50vw;
+}
+
+.inputEmail{
+    width: 80%;
+    height: 35%;
+    background-color: rgb(87, 20, 125);
+}
+
+.inputEmail label{
+    font-size: 100%;
+    font-weight: 900 !important;
+    color: white;
+    background-color: rgb(87, 20, 125);
+}
+
+
+#imglogoSlogan{
+    width: 80%;
+}
+
+#formRecuperarSenha{
+    width: 35vw;
+    height: 70vh;
+    background-color: rgb(87, 20, 125);
+    border-radius: 5vh;
+}
+
+#formRecuperarSenha *{
+    background-color: rgb(87, 20, 125);
+}
+
+
+.inputEmail input{
+    text-align: center;
+    font-size: 110%;
+    border-radius: 5vh;
+    height: 40%;
+    background-color: white !important;
+}
+
+#divHeaderformRecuperarSenha, #divConteudoformRecuperarSenha, #divfooterformRecuperarSenha{
+    width: 90% ;
+    background-color: rgba(86, 20, 125, 0);
+}
+
+#divHeaderformRecuperarSenha{
+    height: 15%;
+}
+
+#divHeaderformRecuperarSenha span{
+    color: rgb(253, 194, 48);
+    font-size: 200%;
+    font-weight: 900;
+}
+
+#divConteudoformRecuperarSenha{
+    height: 47vh;
+}
+
+#divfooterformRecuperarSenha{
+    width: 80% ;
+    height: 10vh;
+}
+
+#divBtnEntrar{
+    width: 25%;
+}
+
+.btn-Enviar{
+    font-weight: 900;
+    color: rgb(23, 13, 48);
+    width: 100%;
+}
+
+.divSpanRsenha{
+    width: 80%;
+    color: white;
+   text-align: center;
+   font-size: 140%;
+}
+
+/* Visualização Tablet */
+@media screen and (max-width: 1023px) {
+
+    .divlogoSlogan{
+        display: none !important;
+    }
+    
+    .divformulario{
+        width: 80%
+    }
+
+    #formRecuperarSenha{
+        width: 95vw;
+        height: 60vh;
+        background-color: rgb(87, 20, 125);
+        border-radius: 5vh;
+    }
+
+    #divHeaderformRecuperarSenha span{
+        font-size: 350%;
+    }
+
+    #divConteudoformRecuperarSenha{
+        height: 60%;
+    }
+
+    .divSpanRsenha{
+        font-size: 160%;
+    }
+
+    .inputEmail{
+        font-size: 120%;
+        height: 35%;
+    }
+
+    .btn-Enviar{
+        font-size: 150%;
+        width: 120px;
+    }
+}
+
+/* Visualização celular */
+@media screen and (max-width: 767px) {
+
+    #divHeaderformRecuperarSenha span{
+        font-size: 140%;
+    }
+
+    #divConteudoformRecuperarSenha{
+        height: 60%;
+    }
+
+    .divSpanRsenha{
+        font-size: 100%;
+    }
+
+    
+    .inputEmail{
+        font-size: 100%;
+        height: 35%;
+    }
+
+    #divBtnEntrar{
+        width: 40%;
+    }
+
+    .btn-Enviar{
+        font-size: 80%;
+        width: 100px;
+    }
+    
+}
+
+
+
+
+
+/* /////////////////////////// Modal 1 //////////////////////*/
+
+
+
+#modalRecuperarSenha, #modalMensagem{
+    background-color:  rgba(21, 7, 45, 0.616);
+} 
+
+.modal-dialog{
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 10vh;
+    max-width: 40%;
+    
+}
+
+.modal-content{
+    border-radius: 3vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(87, 20, 125);
+
+}
+
+.modal-content *{
+    background-color: rgb(87, 20, 125);
+}
+
+.modal-content .modal-body{
+    color: rgb(255, 255, 255);
+}
+
+.modal-header h1 {
+    color: rgb(253, 194, 48);
+    font-size: 5.5vh !important;
+    font-weight: 900;
+}
+
+.modal-header, .modal-footer, .modal-body{
+    width: 80% !important;
+    border: none;
+}
+
+#conteudo-modalMensagem{
+    height: 25vh;
+}
+
+#conteudo-modalMensagem .modal-body{
+    color: rgb(253, 194, 48);
+    font-size: 3.5vh;
+    height: 10px;
+    font-weight: 800;
+}
+
+.btn-cancelar{
+    font-size: 80%;
+    background-color: rgb(179, 179, 179) !important;
+}
+
+.btn-cancelar:hover{
+    background-color: rgb(231, 231, 231) !important;
+}
+
+.btn-salvar{
+    height: 40px;
+}
+
+.btn-salvar:hover{
+    background-color: rgb(255, 227, 114) !important;
+}
+
+.btn-ok{
+    width: 130%;
+}
+
+.modal-body{
+    align-items: center;
+    height: 40vh;
+}
+
+.modal-body label{
+    font-weight: 700;
+}
+
+.modal-body input{
+    background-color: white;
+    height: 4.5vh;
+    border-radius: 2vh;
+    border: none;
+    text-align: center;
+    font-size: 2.5vh;
+
+}
+
+.divSenha{
+    justify-content: space-evenly;
+    width: 25vw;
+    height: 30vh;
+}
+
+.divSenha input{
+    width: 25vw;
+}
+
+.divCodigo{
+    width: 25vw;
+}
+.divCodigo input{
+    width: 15vw;
+}
+
+/* Visualização tablet */
+@media screen and (max-width: 1023px) {
+    
+    .modal-dialog{
+        max-width: 80%;
+        
+    }
+
+    .modal-content{
+      width: 100%;
+    }
+
+    .modal-header h1 {
+        font-size: 350% !important;
+    }
+
+    .divCodigo, .divSenha{
+        width: 90%;
+        
+    }
+
+    #codigoValidacao{
+        font-size: 150%;
+        width: 50%;
+    }
+
+    .divInputSenha{
+       
+        width: 100%;
+    }
+    
+    .inputSenha{
+        font-size: 130% !important;
+        width: 100% !important;
+    }
+
+    .btn-cancelar{
+        font-size: 100%;
+        background-color: rgb(179, 179, 179) !important;
+    }
+    
+    .btn-cancelar:hover{
+        background-color: rgb(231, 231, 231) !important;
+    }
+    
+    .btn-salvar{
+        font-size: 120%;
+        height: 50px;
+    }
+    
+
+}
+
+/* Visualização celular */
+@media screen and (max-width: 767px) {
+    
+    .modal-dialog{
+        
+        max-width: 95%;
+        height: 60vh !important;
+    }
+
+    .modal-header h1 {
+        font-size: 160% !important;
+    }
+
+    .modal-body{
+        width: 90% !important;
+    }
+
+    .divCodigo, .divSenha{
+        font-size: 80% !important;
+        width: 100%;
+        
+    }
+
+    #codigoValidacao{
+        font-size: 130%;
+    }
+
+    .inputSenha{
+        font-size: 100% !important;
+        width: 100% !important;
+    }
+
+    .btn-cancelar{
+        font-size: 70%;
+        background-color: rgb(179, 179, 179) !important;
+    }
+    
+    .btn-cancelar:hover{
+        background-color: rgb(231, 231, 231) !important;
+    }
+    
+    .btn-salvar{
+        font-size: 90%;
+        height: 40px;
+    }
+    
+
+}
+
+
+/* /////////////////////////// modal 2 /////////////////////// */
+/* Visualização tablet */
+@media screen and (max-width: 1023px){
+    .btn-ok{
+        font-size: 100%;
+    }
+}
